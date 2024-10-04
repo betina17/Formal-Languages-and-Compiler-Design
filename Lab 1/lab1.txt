@@ -12,7 +12,7 @@ p3: compute the sum of n numbers, computer the max/min of n numbers
 
 
 
-SOLVING:
+SOLUTION:
 
 p1:
 
