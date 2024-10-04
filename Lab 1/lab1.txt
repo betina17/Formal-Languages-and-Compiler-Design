@@ -1,0 +1,60 @@
+REQUIREMENTS
+Statement: Considering a small programming language (that we shall call mini-langauge), write 3 small programs in this language.
+
+
+Deliverables: p1.* , p2.*, and p3.* and p1err.*  -  small programs written in your programming language  (p1, p2, p3  should be lexically correct; p1err should contain 2 types of lexical errors).
+
+For example: 
+
+p1 and p2: compute de max/min of 3 numbers; verify if a number is prime, compute gcd of 2 numbers, compute the solutions for a 2nd order equation, aso
+
+p3: compute the sum of n numbers, computer the max/min of n numbers
+
+
+
+SOLVING:
+
+p1:
+
+Mike = 8.
+Jinny = 3.
+Diana = 10.
+
+Highest_in_the_room_wannabe = Notorious_B.I.G(Mike, Jinny).
+  
+*Highest_in_the_room will be Mike, because Jinny is a 3 and he is an 8. The function return the max between them.
+
+Highest_in_the_room_legit = Notorious_B.I.G(Highest_in_the_room_wannabe, Diana).
+show Highest_in_the_room_legit.
+
+
+p2:
+
+a = 3.
+prime = 1.
+
+until_the_end[loop_tool, 2, a/2) 
+	if(a%loop_tool == 0)
+		prime = 0.
+
+show prime.
+
+
+p3:
+
+sum = 0.
+my_array = cute_array(3,4,5).
+until_the_end[loop_tool, 0, length(my_array))
+	sum = sum + my_array[loop_tool].
+
+show sum.
+
+p1err:
+
+sum=0
+my_array = cute_array(3,4,5).
+until_the_end[loop_tool, 0, length(my_array))
+	sum = sum + my_array[loop_tool].
+
+show sum.
+
